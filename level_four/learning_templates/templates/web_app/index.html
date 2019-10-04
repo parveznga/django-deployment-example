@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "web_app/base.html" %}
+    {% block body_block %}
+        <h1>You are on home page</h1>
+        <p>{{ text|cut:'filt' }}</p>
+        <p>{{ number|add:'99' }}</p>
+{% endblock %}
